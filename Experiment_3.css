@@ -61,11 +61,8 @@ nav{
     margin-right: 30px;
 }
 .container2{
-    background-color: #dddedf;
+    background-color: #797b7c;
     margin: 0px 20px;
-}
-container2 td{
-    width:25%;
 }
 .container3 img{
     width: 250px;
@@ -74,15 +71,7 @@ container2 td{
     transition: 2s;
 }
 .container3{
-    background-image: url(./background.jpg);
-    background-position: 70%;
-    margin: 0px 20px;
-    border: 15px solid rgb(208, 220, 230);
-}
-table{
-    text-align: center;
-    width:100%;
-    margin: 0px 20px;
+    margin: 20px ;
 }
 .container3 img:hover{
     border-radius: 0%;
@@ -98,4 +87,37 @@ table{
 }
 body{
     border: 2px solid;
+}
+#i1,#i2,#i3,#i4{
+    display: inline;
+    padding: 0px 80px;
+}
+#father {
+    float:left; 
+    width:33%;
+    height:400px;
+    background-color: white;
+}
+#mother{
+    float:left; 
+    width:33%;
+    height:400px;
+    background-color: white;
+}
+#wife{
+    float:right;
+    width:34%;
+    height:400px;
+    background-color: white;
+}
+#img1,#img2,#img3,#img4{
+    position: relative;
+}
+#text{
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    color: red;
+    font-weight: bold;
+    padding: 0px 80px;
 }
